@@ -28,9 +28,9 @@ class Cal extends State<Calculator>{
           ),
           borderRadius: BorderRadius.circular(30),
           gradient: LinearGradient(
-         // colors: [Colors.cyan,Colors.white10],
-         colors:[Color(0xff6a11cb),Color(0xff2575fc),Color(0xff8E2DE2)],
-           // colors:[Color(0xff0F2027),Color(0xff2C5364),Color(0xff203A43)],
+         
+         colors:[Color(#5FB1C8),Color(#356AA0),Color(#356AA0)],
+           
            begin: Alignment.topCenter,
           ),
         ),
