@@ -120,7 +120,15 @@ class Cal extends State<Calculator>{
                       child: ElevatedButton(onPressed: (){
                         selectOpcontroller=4;
                       }, child: Text("/",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),))
-                  )
+                  ),
+
+                  SizedBox(
+                      height: 50,
+                      width:80,
+                      child: ElevatedButton(onPressed: (){
+                        selectOpcontroller=5;
+                        }, child: Text("%",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),))
+                  ),
                 ],
               ),
             ),
@@ -159,6 +167,11 @@ class Cal extends State<Calculator>{
 
     else if(selectOpcontroller==4){
       result=num1/num2;
+      resultcontroller.text=result.toString();
+    }
+
+    else if(selectOpcontroller==5){
+      result=num1%num2;
       resultcontroller.text=result.toString();
     }
 
