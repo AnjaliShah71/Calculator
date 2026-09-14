@@ -68,22 +68,6 @@ class Cal extends State<Calculator>{
                 ),
               ),
             ),
-
-            Padding(
-              padding: const EdgeInsets.all(30),
-              child: TextField(
-                controller: resultcontroller,
-                decoration: InputDecoration(
-                  hintText: "Calculation is: ",
-                    hintStyle: TextStyle(
-                      color: Colors.white,
-                    ),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(30)
-                  ),
-                ),
-              ),
-            ),
             
             Padding(
               padding: const EdgeInsets.all(30),
@@ -137,8 +121,25 @@ class Cal extends State<Calculator>{
               padding: const EdgeInsets.all(10),
               child: ElevatedButton(onPressed: (){
                 sum();
-              }, child: Text("Calculate")),
-            )
+              }, child: Text("=",style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),)),
+            ),
+
+              Padding(
+              padding: const EdgeInsets.all(30),
+              child: TextField(
+                controller: resultcontroller,
+                decoration: InputDecoration(
+                  hintText: "Calculation is: ",
+                    hintStyle: TextStyle(
+                      color: Colors.white,
+                    ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(30)
+                  ),
+                ),
+              ),
+            ),
+            
           ],
         ),
       ),
