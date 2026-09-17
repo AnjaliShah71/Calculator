@@ -29,7 +29,7 @@ class Cal extends State<Calculator>{
           borderRadius: BorderRadius.circular(30),
           gradient: LinearGradient(
          
-         colors:[Color(#5FB1C8),Color(#356AA0),Color(#356AA0)],
+         colors:[Color(0xff5FB1C8),Color(0xff356AA0),Color(0xff356AA0)],
            
            begin: Alignment.topCenter,
           ),
