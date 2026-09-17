@@ -75,7 +75,7 @@ class Cal extends State<Calculator>{
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   SizedBox(
-                      height: 50,
+                      height: 80,
                       width:80,
                       child: ElevatedButton(onPressed: (){
                         selectOpcontroller=1;
@@ -83,7 +83,7 @@ class Cal extends State<Calculator>{
                   ),
 
                   SizedBox(
-                      height: 50,
+                      height: 80,
                       width:80,
                       child: ElevatedButton(onPressed: (){
                         selectOpcontroller=2;
@@ -91,7 +91,7 @@ class Cal extends State<Calculator>{
                   ),
 
                   SizedBox(
-                      height: 50,
+                      height: 80,
                       width:80,
                       child: ElevatedButton(onPressed: (){
                         selectOpcontroller=3;
@@ -99,7 +99,7 @@ class Cal extends State<Calculator>{
                   ),
 
                   SizedBox(
-                      height: 50,
+                      height: 80,
                       width:80,
                       child: ElevatedButton(onPressed: (){
                         selectOpcontroller=4;
@@ -107,7 +107,7 @@ class Cal extends State<Calculator>{
                   ),
 
                   SizedBox(
-                      height: 50,
+                      height: 80,
                       width:80,
                       child: ElevatedButton(onPressed: (){
                         selectOpcontroller=5;
