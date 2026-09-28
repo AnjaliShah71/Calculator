@@ -148,8 +148,8 @@ class Cal extends State<Calculator>{
 
   void sum()
   {
-    int num1=int.parse(numcontroller1.text);
-    int num2=int.parse(numcontroller2.text);
+    double num1=double.parse(numcontroller1.text);
+    double num2=double.parse(numcontroller2.text);
 
     if(selectOpcontroller ==1){
       result=num1+num2;
